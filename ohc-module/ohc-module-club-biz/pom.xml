@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.ourhomechina</groupId>
+        <artifactId>ohc-module</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <groupId>com.ourhomechina.club</groupId>
+    <artifactId>ohc-module-club-biz</artifactId>
+    <description>俱乐部管理模块，主要提供分会管理、会员管理、入会、会员等级管理等功能。</description>
+    <packaging>jar</packaging>
+    <modelVersion>4.0.0</modelVersion>
+
+    <properties>
+    </properties>
+
+</project>

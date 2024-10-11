@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>cn.iocoder.boot</groupId>
+        <artifactId>yudao</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <groupId>com.ourhomechina</groupId>
+    <artifactId>ohc-module</artifactId>
+    <packaging>pom</packaging>
+    <description>
+        OurHomeChina功能模块，包含：分会管理、会员管理、活动管理等
+    </description>
+    <modules>
+        <module>ohc-module-club-api</module>
+        <module>ohc-module-club-biz</module>
+        <module>ohc-module-activity-api</module>
+        <module>ohc-module-activity-biz</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+</project>
